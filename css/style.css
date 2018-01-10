@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 14px;
+  padding: 10px 20px;
+}
+
+input[type="text"] {
+  font-size: 14px;
+  border: 1px solid #ccd1d1;
+  width: 100%;
+  color: #000;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+.thumbnails {
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    max-width: 500px;
+  }
+
+  .column {
+    margin-left: 128px;
+    display: flex;
+    flex-direction: column;
+  }
+}
